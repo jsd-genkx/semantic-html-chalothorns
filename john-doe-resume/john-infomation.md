@@ -27,7 +27,7 @@ ABC University - Graduated in 2019
 
 ## Contact Me
 
-Email: john.doe@example.com
+Email: john.doe@example.com 
 
 Phone: +1234567890
 

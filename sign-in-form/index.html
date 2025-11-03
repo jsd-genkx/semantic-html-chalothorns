@@ -57,9 +57,9 @@
         <fieldset>
         
             <label for "email">Email:</label>
-            <br><input type="text" placeholder="Enter email">
-            <br><label for "password">Password:</label>
-            <br><input type="password" pattern=".{8,20}" title="Password must be between 8 and 20 characters" placeholder="Enter password">
+            <br><input type="email" id="Email" name="Email" placeholder="Enter email" **required**>
+            <br><label for="password">Password:</label>
+            <br><input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" title="Password must be 8-20 characters and include at least one uppercase letter, one lowercase letter, and one number." placeholder="Enter password" required>
             <br><button type="submit">Sign in </button>
             
             <div class="ForgotPassword">
