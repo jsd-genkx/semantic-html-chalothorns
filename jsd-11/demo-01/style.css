@@ -1,0 +1,27 @@
+
+*,
+*::before, /*เพิ่มเนื้อหาหรือองค์ประกอบใหม่ ก่อน (Before) เนื้อหาจริงขององค์ประกอบที่เลือก*/
+*::after { /*เพิ่มเนื้อหาหรือองค์ประกอบใหม่ หลัง (After) เนื้อหาจริงขององค์ประกอบที่เลือก*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* CSS */
+body {
+    font-family: "Inter", sans-serif;
+}
+.text {
+    padding: 10px;
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+        /* outline:solid red 1px; content จะไม่ขยับ */
+    /* outline: solid red 10px; */
+    /*border จะขยัน content เรา และborder จะมีของใครของมันในcontent แต่ละ paragraph */
+    border: solid red 10px;
+}
+#text2 {
+    background-color: lightblue;
+    border: solid blue 10px;
+}

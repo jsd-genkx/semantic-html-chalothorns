@@ -1,0 +1,63 @@
+
+*,
+*::before, /*เพิ่มเนื้อหาหรือองค์ประกอบใหม่ ก่อน (Before) เนื้อหาจริงขององค์ประกอบที่เลือก*/
+*::after { /*เพิ่มเนื้อหาหรือองค์ประกอบใหม่ หลัง (After) เนื้อหาจริงขององค์ประกอบที่เลือก*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* CSS */ */
+body {
+    font-family: "Inter", sans-serif;
+}
+.text {
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+       /* outline:solid red 1px; content จะไม่ขยับ */
+    /* outline: solid red 10px; */
+    /*border จะขยัน content เรา และborder จะมีของใครของมันในcontent แต่ละ paragraph */
+    border: solid red 10px;}
+
+
+#avatar{
+       height: 100px;
+       aspect-ratio: 1/1;
+       background-color: red;
+       border-radius: 50%;
+       border: solid;
+}
+
+button{
+
+       background-color: #555;
+       color: bisque;
+       border-radius: 8px;
+       padding: 0.5rem 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.05; /*hover แล้วปุ่มขยาย*/
+}
+
+button:active{
+    color:red;
+}
+
+/* เปนการเพิ่ม content ด้านหน้าของ h2 แต่มันจะไม่ถูก select ไปด้วย*/
+h2::before {
+	content: "555";
+}
+
+
+ /*เปนการเพิ่ม content ด้านหลังของ h2 แต่มันจะไม่ถูก select ไปด้วย */
+h2::after {
+	content: "555";
+}
+
+

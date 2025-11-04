@@ -1,0 +1,65 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      background-color: #ffcbd9;
+
+    }
+    h1{
+        text-align: center;
+       
+    }
+    form {
+        background:linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
+        padding:20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 400px;
+        color: whitesmoke;
+
+
+    }
+    
+    label {
+      display: block;
+      margin-top: 5px;
+      font-size: 1em;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 3px;
+      font-size: 1em;
+      box-sizing: border-box;
+    }
+    
+    button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border:none;
+    background: #ffe3e9;
+    border-radius: 4px;
+    }
+
+
+
+button:hover{
+    cursor: pointer;
+    scale: 1.02; /*hover แล้วปุ่มขยาย*/
+    background: linear-gradient(315deg, #9ab5e1 0%, #f39fdc 74%);
+}
+
+button:active{
+    color:whitesmoke;
+}
+
+
+
+
